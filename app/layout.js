@@ -2,6 +2,7 @@
 import "./css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Kimberly Roussse Informatique",
@@ -18,7 +19,8 @@ export default function RootLayout({ children }) {
             {children}
           </main>
         </div>
-//        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossOrigin="anonymous"></script>
+        <Analytics />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossOrigin="anonymous"></script>
       </body>
     </html>
   );
