@@ -7,11 +7,16 @@ import { Analytics } from "@vercel/analytics/next"
 export const metadata = {
   title: "Kimberly Roussse Informatique",
   description: "Page Web Professionnelle",
+  verification: {
+    google: 'a2dwUT-uSfgrVAOLllECrDaJtQ5usJRY1Atp1L3B3BQ',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+      </head>
       <body >
         <Header className="fixedHeader" />
         <div className="main-content-wrapper">
