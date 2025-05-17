@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
+        <meta name="google-site-verification" content="a2dwUT-uSfgrVAOLllECrDaJtQ5usJRY1Atp1L3B3BQ" />
       </head>
       <body >
         <Header className="fixedHeader" />
