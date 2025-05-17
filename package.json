@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out -r https://www.google.com/search?q=https://github.com/kimberlyrousse/kimberlyrousse.github.io.git"
+    "deploy": "gh-pages -d .next/static -d public"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
@@ -15,7 +15,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-   "devDependencies": {
-    "gh-pages": "^8.0.0"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
