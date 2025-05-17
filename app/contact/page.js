@@ -12,6 +12,8 @@ export default function HomePage() {
                     <div className="col-md-6">
                         <h1>Kimberly Rousse</h1>
 
+                        <p className="mt-2">Disponible partout au Saguenay</p>
+
                         <p className="mt-2">Cellulaire: 418-290-4010</p>
 
                         <p className="mt-2">Email: <Link href="mailto:kimberly.rousse@hotmail.com">kimberly.rousse@hotmail.com</Link></p>
