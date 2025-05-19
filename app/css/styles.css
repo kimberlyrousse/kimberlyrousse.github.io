@@ -20,3 +20,12 @@
   padding-top: 60px;
   flex-grow: 1;
 }
+
+.navLink {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #007bff;
+}
