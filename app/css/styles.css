@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  
 }
 
 .fixedHeader.navbar {
@@ -21,11 +22,25 @@
   flex-grow: 1;
 }
 
-.navLink {
-  color: #000;
-  transition: color 0.3s ease;
+.nav-item {
+  transition: background-color 0.3s ease;
 }
 
-.navLink:hover {
-  color: #007bff;
+.nav-item:hover {
+  background-color: #007bff;
+}
+
+.nav-link {
+  display: block;
+  color: #db70d2;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color:#db70d2;
+}
+.main-content {
+  padding-top: 60px;
+  flex-grow: 1;
+  background-color: #addba3;
 }
