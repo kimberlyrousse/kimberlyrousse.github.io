@@ -8,12 +8,12 @@ export default function HomePage() {
         <>
             <main className="container py-5">
                 <section className="row mb-5 align-items-center">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                         <h1>Kimberly Rousse</h1>
 
                         <p className="mt-2">Disponible partout au Saguenay</p>
 
-                        <p className="mt-2">Cellulaire: 418-290-4010</p>
+                        <p className="mt-2">Cellulaire: <Link href="tel:4182904010">418-290-4010</Link></p>
 
                         <p className="mt-2">Email: <Link href="mailto:kimberly.rousse@hotmail.com">kimberly.rousse@hotmail.com</Link></p>
 

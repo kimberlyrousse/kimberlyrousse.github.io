@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  
 }
 
 .fixedHeader.navbar {
@@ -20,27 +19,44 @@
 .main-content {
   padding-top: 60px;
   flex-grow: 1;
+  /* Drapeau transgenre - dégradé horizontal */
+  background: linear-gradient(
+    to right,
+    #55cdfc,
+    #f7a8b8,
+    #ffffff,
+    #f7a8b8,
+    #55cdfc
+  );
+  background-size: cover;
 }
 
-.nav-item {
+.navbar {
+  background: linear-gradient(to right, #301934, #800080, #00008B, #006400, #FF8C00, #FF4500, #B22222);
+}
+
+.nav-item, .navbar-brand { /* Ajout de .navbar-brand à la sélection */
   transition: background-color 0.3s ease;
-}
-
-.nav-item:hover {
-  background-color: #007bff;
-}
-
-.nav-link {
-  display: block;
-  color: #db70d2;
+  display: block; /* Assure que le padding fonctionne */
+  color: #fff;
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
-.nav-link:hover{
-  color:#db70d2;
+
+.nav-item:hover, .navbar-brand:hover { /* Ajout de .navbar-brand:hover */
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
-.main-content {
-  padding-top: 60px;
-  flex-grow: 1;
-  background-color: #addba3;
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+  color: #bebcbc;
+}
+
+.navbar-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

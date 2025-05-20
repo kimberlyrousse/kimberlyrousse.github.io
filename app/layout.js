@@ -1,6 +1,8 @@
 //app\layout.js
-import "./css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/styles.css";
+import { keywords } from './keywords';
+
 import Header from "./components/Header";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -14,6 +16,8 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <head>
         <meta name="google-site-verification" content="a2dwUT-uSfgrVAOLllECrDaJtQ5usJRY1Atp1L3B3BQ" />
+        <meta name="description" content="Services de soutien informatique personnalisés à Saguenay. Aide informatique pour particuliers et entreprises, formations, assistance technique et développement de solutions numériques." />
+        <meta name="keywords" content={keywords} />
       </head>
       <body >
         <Header className="fixedHeader" />
