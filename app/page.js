@@ -62,6 +62,9 @@ export default function HomePage() {
                   <li>
                     Accompagnement pour le changment et la récupération d'identifiants et mot de passes perdus ou compromis.
                   </li>
+                  <li>
+                    Aide à la gestion de la planification et du budget.
+                  </li>
                 </ul>
               </li>
               <li>
