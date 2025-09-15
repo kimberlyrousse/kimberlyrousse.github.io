@@ -49,8 +49,8 @@ export default function FormationsPage() {
                             </ul>
                             <h3>Langues</h3>
                             <ul>
-                                <li>Français (parlé et écrit)</li>
-                                <li>Anglais (parlé et écrit)</li>
+                                <li>Français : langue maternelle</li>
+                                <li>Anglais : conversationel avancé</li>
                             </ul>
                         </div>
                     </div>
