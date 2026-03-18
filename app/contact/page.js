@@ -18,7 +18,7 @@ export default function HomePage() {
                         <p className="mt-2">Email: <Link href="mailto:kimberly.rousse@hotmail.com">kimberly.rousse@hotmail.com</Link></p>
 
                         <p className="mt-3">
-                            LinkedIn: <Link href="https://www.linkedin.com/in/kimberly-rousse" target="_blank" rel="noopener noreferrer">Kimberly Rousse</Link>
+                            LinkedIn: <Link href="www.linkedin.com/in/kimberlyrousse" target="_blank" rel="noopener noreferrer">Kimberly Rousse</Link>
                         </p>
                     </div>
                 </section>
