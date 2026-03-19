@@ -22,11 +22,13 @@ export default function ExperiencePage() {
                         <li>
                             <strong>Analyse organisationnelle</strong> - Différents organismes communautaires du Saguenay
                             <ul>
+                                <li>Analyse des vulnérabilités et recommendations pour respecter la loi en matière de protection des données (Loi 25)</li>
                                 <li>Conseil pour intégrer des solutions informatiques aux opérations des organismes</li>
                                 <li>Présence et utilisation des réseaux sociaux</li>
                                 <li>Soutien informatique et installation de postes informatiques – destruction des données confidentielles</li>
                                 <li>Support Web</li>
                                 <li>Sensibilisation interdisciplinaire</li>
+                                <li>Conception de procédures standardisées</li>
                             </ul>
                         </li>
                         <li>
